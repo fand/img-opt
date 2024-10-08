@@ -1,0 +1,17 @@
+{
+  "name": "@fand/img-opt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "AMAGI <mail@amagi.dev> (https://amagi.dev/)",
+  "license": "MIT",
+  "description": "Handy image optimizer",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "sharp": "^0.33.5"
+  }
+}
