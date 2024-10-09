@@ -1,10 +1,11 @@
 {
   "name": "@fand/img-opt",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "bin": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "AMAGI <mail@amagi.dev> (https://amagi.dev/)",
@@ -13,5 +14,10 @@
   "dependencies": {
     "commander": "^12.1.0",
     "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0"
   }
 }

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const sharp = require("sharp");
-const { Command } = require("commander");
-const program = new Command();
+import sharp from "sharp";
+import { Command } from "commander";
 
 // CLI options
+const program = new Command();
 program
   .argument("<input>", "input image path")
   .argument("<output>", "output image path")
